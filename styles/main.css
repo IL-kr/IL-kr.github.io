@@ -1,0 +1,97 @@
+/*
+	Color Palette
+	Main #F6B352
+		#F68657
+		#383A3F
+	bg	#1F2124
+*/
+
+body{
+	background-color: #1F2124;
+}
+
+/*Utility Class*/
+.marg-btm-0{ margin-bottom: 0; }
+.bord-rght{ border-right: 1px solid #383A3F; }
+
+.site-header__homelink a, .site-header__homelink a:hover {
+	color: #1F2124;
+	text-decoration: none;
+}
+.site-header__homelink{
+	background: #F6B352;
+	padding: 10px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 24px;
+    font-weight: 700;
+}
+
+.homelink__tag a{
+	text-decoration: none;
+}
+.homelink__tag{
+	position: absolute;
+	top: 0;
+	left: 75px;
+}
+.site-header__logo{
+	/*position: relative;*/
+}
+
+/*Main*/
+.hero--text{
+	color: #5f636b;
+}
+.main{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/*End Main*/
+
+/*Nav*/
+.site__mobileNav{
+	color: #fff;
+	position: fixed;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1F2124;
+    border-top: 1px solid #383A3F;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 400;
+    z-index: 1000;
+}
+
+.mobileNav__list{
+	list-style: none;
+	display: flex;
+}
+
+.mobileNav__item{
+	width: 25%;
+}
+.mobileNav__link{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 56px;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+.mobileNav__link:hover{
+	color: #fff;
+}
+.mobileNav__link i{
+	font-size: 3em;
+}
+.nav-active a, .nav-active a:hover{
+	color: #F6B352;
+}
