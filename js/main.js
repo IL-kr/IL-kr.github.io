@@ -2,7 +2,7 @@ const author = `
 ================================
 
 Author: William I. Olojede
-URL: 	http://olojedewilliam.me
+URL: 	http://william.ng
 
 ================================
 `;

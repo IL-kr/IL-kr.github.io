@@ -14,11 +14,11 @@ body{
 .marg-btm-0{ margin-bottom: 0; }
 .bord-rght{ border-right: 1px solid #383A3F; }
 
-.site-header__homelink a, .site-header__homelink a:hover {
+.siteHeader__homelink a, .siteHeader__homelink a:hover {
 	color: #1F2124;
 	text-decoration: none;
 }
-.site-header__homelink{
+.siteHeader__homelink{
 	background: #F6B352;
 	padding: 10px;
 	text-align: center;
@@ -35,16 +35,17 @@ body{
 	top: 0;
 	left: 75px;
 }
-.site-header__logo{
+.siteHeader__logo{
 	/*position: relative;*/
 }
 
 /*Main*/
 .hero--text{
 	color: #5f636b;
+	font-family: 'Covered By Your Grace', cursive;
 }
 .main{
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -94,4 +95,12 @@ body{
 }
 .nav-active a, .nav-active a:hover{
 	color: #F6B352;
+}
+
+
+/*Nav for > mobile screen*/
+@media (min-width: 415px) {
+	.site__mobileNav{
+		display: none;
+	}
 }
